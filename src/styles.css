@@ -2,3 +2,8 @@
 
 
 @import url('https://fonts.google.com/specimen/Poppins?query=poppin:wght@300&display=swa');
+
+body{
+    margin: 0px;
+    background-color: #ECECEC;
+}
