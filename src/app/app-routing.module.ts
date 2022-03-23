@@ -7,18 +7,16 @@ import { InvoiceEmailComponent } from "./invoice-email/invoice-email.component";
 import { PasswordResetComponent } from "./password-reset/password-reset.component";
 import { ThanksComponent } from "./thanks/thanks.component";
 import { TempPassComponent } from "./temp-pass/temp-pass.component";
+import { EmailVerificationComponent } from "./email-verification/email-verification.component";
 
 const routes: Routes = [
   {
     path: "",
     component: TempEmailComponent,
   },
+
   {
     path: "welcome",
-    component: WelcomeComponent,
-  },
-  {
-    path: "welcome-email",
     component: WelcomeEmailComponent,
   },
   {
@@ -36,6 +34,10 @@ const routes: Routes = [
   {
     path: "thanks",
     component: ThanksComponent,
+  },
+  {
+    path: "email-verify",
+    component: EmailVerificationComponent,
   },
 ];
 

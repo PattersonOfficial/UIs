@@ -10,6 +10,7 @@ import { PasswordResetComponent } from './password-reset/password-reset.componen
 import { TempEmailComponent } from './temp-email/temp-email.component';
 import { ThanksComponent } from './thanks/thanks.component';
 import { TempPassComponent } from './temp-pass/temp-pass.component';
+import { EmailVerificationComponent } from './email-verification/email-verification.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { TempPassComponent } from './temp-pass/temp-pass.component';
     PasswordResetComponent,
     TempEmailComponent,
     ThanksComponent,
-    TempPassComponent
+    TempPassComponent,
+    EmailVerificationComponent
   ],
   imports: [
     BrowserModule,
