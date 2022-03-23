@@ -8,6 +8,7 @@ import { WelcomeEmailComponent } from './welcome-email/welcome-email.component';
 import { InvoiceEmailComponent } from './invoice-email/invoice-email.component';
 import { PasswordResetComponent } from './password-reset/password-reset.component';
 import { TempEmailComponent } from './temp-email/temp-email.component';
+import { ThanksComponent } from './thanks/thanks.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { TempEmailComponent } from './temp-email/temp-email.component';
     WelcomeEmailComponent,
     InvoiceEmailComponent,
     PasswordResetComponent,
-    TempEmailComponent
+    TempEmailComponent,
+    ThanksComponent
   ],
   imports: [
     BrowserModule,
