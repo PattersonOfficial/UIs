@@ -124,7 +124,7 @@
     }
   
     .header {
-      height: 63px;
+      height: 100px;
       width: 320px;
       display: flex;
       background-color: white;
@@ -137,6 +137,7 @@
   
     .image {
       height: 52px;
+      margin-top: 30px;
       /* width: 130px; */
     }
   
@@ -224,7 +225,7 @@
     }
   
     .header {
-      height: 63px;
+      height: 100px;
       width: 320px;
       display: flex;
       background-color: white;
@@ -237,6 +238,7 @@
   
     .image {
       height: 52px;
+      margin-top: 30px;
       /* width: 130px; */
     }
   
